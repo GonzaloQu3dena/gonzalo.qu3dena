@@ -100,7 +100,7 @@ input:checked + .toggle__slider:before {
 }
 
 .section {
-   @apply w-full p-4 sm:px-6 md:h-screen flex items-center justify-center scroll-snap-start;
+    @apply w-full p-4 sm:px-6 md:h-screen flex items-center justify-center scroll-snap-start;
 }
 
 .section:nth-child(1) {
@@ -125,7 +125,7 @@ input:checked + .toggle__slider:before {
 }
 
 .about-me__stack {
-    @apply flex flex-wrap justify-center gap-10 lg:gap-14;
+    @apply flex flex-wrap justify-center gap-10 lg:gap-x-14 lg:gap-y-8;
 }
 
 .stack__tech {
