@@ -2460,12 +2460,12 @@ textarea {
     margin-bottom: 0px;
   }
 
-  .md\:mt-\[-80px\]{
-    margin-top: -80px;
-  }
-
   .md\:mt-\[-15px\]{
     margin-top: -15px;
+  }
+
+  .md\:mt-\[-80px\]{
+    margin-top: -80px;
   }
 
   .md\:flex{
@@ -2527,10 +2527,6 @@ textarea {
 
   .lg\:mt-\[-10px\]{
     margin-top: -10px;
-  }
-
-  .lg\:mt-\[-15px\]{
-    margin-top: -15px;
   }
 
   .lg\:flex{
