@@ -12,7 +12,9 @@
             <div class="nav__container w-[90%] mx-auto h-[70px] grid grid-cols-2 justify-between items-center px-4 overflow-hidden">
                 <!-- Logo Section -->
                 <span class="col-span-1">
-                    <img src="assets/images/logo.png" alt="logo" class="size-12 block"/>
+                    <a href="#hero">
+                        <img src="assets/images/logo.png" alt="logo" class="size-12 block"/>
+                    </a>
                 </span>
                 <!-- Desktop Menu -->
                 <div class="hidden lg:flex lg:col-span-1">
@@ -85,8 +87,8 @@
                         <img src="assets/images/profile.webp" alt="profile-photo-gonzalo-quedena" class="w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] lg:w-[325px] lg:h-[325px] rounded-full object-cover"/>
                     </div>
                     <!-- Profile Info -->
-                    <div class="text-center flex flex-col gap-5 md:gap-6 items-center lg:items-start lg:w-[60%]">
-                        <h1 class="text-white text-4xl t-h1">
+                    <div class="text-center flex flex-col gap-4 items-center lg:items-start lg:w-[60%]">
+                        <h1 class="t-h1">
                             Gonzalo Quedena
                         </h1>
                         <p class="hero__subtitle text-white font-libre text-base lg:text-xl">
@@ -115,7 +117,7 @@
                     <div class="about-me__cards flex flex-col gap-12 text-white lg:w-[60%]">
                         <div class="about-me__card bg-linear-grey p-5 rounded-2xl text-justify">
                             <h2 class="about-me__title-first section__title mb-3">About Me.</h2>
-                            <p class="about-me__description font-libre">
+                            <p class="about-me__description font-libre leading-8">
                                 Hello! I'm a frontend developer from Peru, focused on building digital solutions and learning new technologies. My goal is to keep growing and contributing to impactful projects.
                             </p>
                         </div>
@@ -214,32 +216,32 @@
             <section class="section section__contact" id="contact">
                 <h2 class="section__title contact__title">Contact Me.</h2>
                 <div class="mt-6">
-                    <h3 class="contact__subtitle font-libre font-bold text-lg text-[#A8A8A8]">Get In Touch</h3>
+                    <h3 class="contact__subtitle font-libre font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-[#A8A8A8]">Get In Touch</h3>
                 </div>
-
-                <div class="flex flex-col sm:items-center md:flex-row gap-10 justify-between">
+            
+                <div class="flex flex-col sm:items-center md:flex-row gap-6 md:gap-12 justify-between">
                     <div class="flex flex-col sm:flex-row md:flex-col gap-4 sm:gap-24 md:gap-4 mt-4 md:m-0 md:mt-[-80px]">
                         <div class="flex flex-col gap-0 mt-4">
                             <div class="flex flex-row items-center gap-4 font-bold">
                                 <img src="/assets/images/svg/map.svg" alt="Map icon" class="size-8"/>
-                                <span class="text-[#A8A8A8]">Address:</span>
+                                <span class="text-[#A8A8A8] text-base sm:text-lg md:text-xl lg:text-2xl">Address:</span>
                             </div>
-                            <p>Lima, Perú</p>
+                            <p class="text-base sm:text-lg md:text-xl lg:text-2xl">Lima, Perú</p>
                         </div>
-
+            
                         <div class="flex flex-col gap-0 mt-4">
                             <div class="flex flex-row items-center gap-4 font-bold">
                                 <img src="/assets/images/svg/email.svg" alt="Email icon" class="size-8"/>
-                                <span class="text-[#A8A8A8]">Email:</span>
+                                <span class="text-[#A8A8A8] text-base sm:text-lg md:text-xl lg:text-2xl">Email:</span>
                             </div>
-                            <p>gonzalo.qu3dena@gmail.com</p>
+                            <p class="text-base sm:text-lg md:text-xl lg:text-2xl">gonzalo.qu3dena@gmail.com</p>
                         </div>
                     </div>
-    
-                    <form class="flex flex-col gap-4 mt-8 w-full sm:max-w-[70%] lg:max-w-[50%] lg:items-end">
-                        <input type="email" placeholder="Your email" class="w-full rounded-2xl p-2" required/>
-                        <input type="text" placeholder="Your Subject" class="w-full rounded-2xl p-2" required/>
-                        <textarea placeholder="Your message" class="w-full h-[150px] rounded-2xl" required></textarea>
+            
+                    <form class="flex flex-col gap-6 mt-8 w-full sm:max-w-[70%] lg:max-w-[50%] lg:items-end md:mt-[-15px]">
+                        <input type="email" placeholder="Your email" class="form__input" required/>
+                        <input type="text" placeholder="Your subject" class="form__input" required/>
+                        <textarea placeholder="Your message" class="form__input placeholder-text h-[150px]" required></textarea>
                         <button type="submit" class="button lg:w-[40%] px-4 py-2">Send Message</button>
                     </form>
                 </div>
@@ -259,7 +261,7 @@
                     </a>
                 </div>
                 <div class="text-center md:text-right mb-4 md:mb-0">
-                    <p class="footer__copy text-sm">&copy; 2023 Gonzalo Quedena. All rights reserved.</p>
+                    <p class="footer__copy sm:text-lg md:text-xl">&copy; 2023 Gonzalo Quedena. All rights reserved.</p>
                 </div>
                 <div>
                     <a href="#top" class="footer__button button p-2">Back to Top</a>
