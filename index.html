@@ -6,8 +6,8 @@
     <title>My Portfolio</title>
     <link rel="stylesheet" href="assets/styles/main.css">
 </head>
-<body class="h-screen bg-primary">
-    <header class="w-full lg:fixed">
+<body class="bg-primary">
+    <header class="w-full lg:fixed top-0 left-0 right-0 z-50">
         <nav class="nav bg-secondary p-4">
             <div class="nav__container w-[90%] mx-auto h-[70px] grid grid-cols-2 justify-between items-center px-4 overflow-hidden">
                 <!--logo section-->
@@ -23,7 +23,7 @@
                             </a>
                         </li>
                         <li class="list-none">
-                            <a href="#" class="flex text-[1.2rem] items-center py-4 no-underline text-white tracking-widest font-medium hover:underline">
+                            <a href="#contact" class="flex text-[1.2rem] items-center py-4 no-underline text-white tracking-widest font-medium hover:underline">
                                 CONTACT
                             </a>
                         </li>
@@ -52,12 +52,12 @@
                 <!--mobile menu-->
                 <ul class="dropdown bg-secondary absolute right-0 top-0 bottom-0 w-[65%] max-w-[300px] p-4 flex flex-col gap-6 justify-center" id="menu">
                     <li class="list-none">
-                        <a href="#" class="flex text-[1.2rem] items-center py-4 no-underline text-white tracking-widest font-medium hover:underline ml-3">
+                        <a href="#about-me" class="flex text-[1.2rem] items-center py-4 no-underline text-white tracking-widest font-medium hover:underline ml-3">
                             ABOUT ME
                         </a>
                     </li>
                     <li class="list-none">
-                        <a href="#" class="flex text-[1.2rem] items-center py-4 no-underline text-white tracking-widest font-medium hover:underline ml-3">
+                        <a href="#contact" class="flex text-[1.2rem] items-center py-4 no-underline text-white tracking-widest font-medium hover:underline ml-3">
                             CONTACT
                         </a>
                     </li>
@@ -92,7 +92,7 @@
                         <p class="text-white font-libre text-base lg:text-xl">
                             On the way to becoming a web developer
                         </p>
-                        <a href="#" class="button w-[80%] lg:max-w-[200px] h-14">
+                        <a href="#projects" class="button w-[80%] lg:max-w-[200px] h-14">
                             View Works
                         </a>
                         <!--social media icons-->
@@ -107,17 +107,20 @@
                     </div>
                 </div>
             </section>
+
+            <hr class="separator">
+
             <section id="about-me" class="section about-me">
                 <div class="about-me__container">
                     <div class="about-me__cards flex flex-col gap-12 text-white lg:w-[60%]">
                         <div class="about-me__card bg-linear-grey p-5 rounded-2xl text-justify">
-                            <h2 class="about-me__title">About Me.</h2>
+                            <h2 class="section__title">About Me.</h2>
                             <p class="font-libre">
                                 Hello! I'm a frontend developer from Peru, focused on building digital solutions and learning new technologies. My goal is to keep growing and contributing to impactful projects.
                             </p>
                         </div>
                         <div class="card bg-linear-grey p-5 rounded-2xl text-justify">
-                            <h2 class="about-me__title">Education</h2>
+                            <h2 class="section__title">Education</h2>
                             <ul class="card__list pl-5 my-3">
                                 <li class="list-disc font-libre">
                                     Software Engineering Student
@@ -129,7 +132,7 @@
                         </div>
                     </div>
                     <div class="text-white lg:w-[40%] lg:mt-[-10px]">
-                        <h2 class="about-me__title">
+                        <h2 class="section__title">
                             Tech Stack
                         </h2>
                         <div class="flex flex-col items-center lg:items-start gap-5 mt-6">
@@ -192,10 +195,24 @@
                     </div>
                 </div>
             </section>
-            <section class="section">
+
+            <hr class="separator">
+
+            <section class="section px-3 py-4" id="projects">
+                <div class="text-start mb-4">
+                    <h2 class="section__title mb-2">Projects</h2>
+                    <p class="text-justify font-libre">
+                        A collection of my recent work, showcasing my frontend development skills and passion for technology.
+                    </p>
+                </div>
+
+                <div class="w-full flex flex-wrap items-center justify-center gap-6 max-w-[95%]" id="projects__container"></div>
             </section>
         </div>
     </main>
+
+    
     <script src="js/scripts.js"></script>
+    <script src="js/project-item.js"></script>
 </body>
 </html>

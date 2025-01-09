@@ -27,10 +27,6 @@
     }
 }
 
-body {
-    @apply lg:overflow-hidden;
-}
-
 .nav {
     --img1: scale(1);
     --img2: scale(0);
@@ -96,15 +92,23 @@ input:checked + .toggle__slider:before {
 }
 
 .main {
-    @apply lg:scroll-snap-y lg:overflow-y-scroll scroll-smooth h-screen w-full px-4 sm:px-6 font-jacques lg:px-32;
+    @apply w-full px-4 sm:px-6 font-jacques lg:px-32 text-white;
+}
+
+section {
+    scroll-margin-top: 70px; /* Ajusta este valor según la altura de tu header */
 }
 
 .section {
-    @apply w-full p-4 sm:px-6 md:h-screen flex items-center justify-center scroll-snap-start;
+    @apply w-full min-h-screen flex flex-col justify-center my-3 p-4 sm:px-6 text-white;
 }
 
 .section:nth-child(1) {
     @apply h-screen
+}
+
+.section__title {
+    @apply text-[1.6rem] font-bold;
 }
 
 .icon {
@@ -120,14 +124,17 @@ input:checked + .toggle__slider:before {
     @apply flex flex-col gap-12 lg:flex-row lg:gap-32;
 }
 
-.about-me__title {
-    @apply text-[1.6rem] font-bold;
-}
-
 .about-me__stack {
     @apply flex flex-wrap justify-center gap-10 lg:gap-x-14 lg:gap-y-8;
 }
 
 .stack__tech {
     @apply max-w-[60px] w-full;
+}
+
+.separator {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #fff, transparent);
+    margin: 2rem 0;
 }
