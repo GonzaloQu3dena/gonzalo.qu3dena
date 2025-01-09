@@ -1,0 +1,41 @@
+{
+  "nav": {
+    "language": "ES",
+    "aboutMe": "SOBRE MI",
+    "contact": "CONTACTO"
+  },
+
+  "hero": {
+    "subtitle": "En camino de convertirme en un desarrollador web",
+    "button": "Ver Trabajos"
+  },
+
+  "aboutMe": {
+    "aboutMe": {
+      "title": "Sobre Mi.",
+      "description": "¡Hola! Soy un desarrollador frontend de Perú, enfocado en construir soluciones digitales y aprender nuevas tecnologías. Mi objetivo es seguir creciendo y contribuyendo a proyectos impactantes."
+    },
+    "education": {
+      "title": "Educación",
+      "career": "Ingeniería de Software",
+      "university": "Universidad Peruana de Ciencias Aplicadas 2020 - Presente"
+    },
+    "techStack": {
+      "title": "Tecnologías",
+      "buttons": {
+        "languages": "Lenguajes",
+        "frameworks": "Frameworks"
+      }
+    }
+  },
+
+  "projects": {
+    "title": "Proyectos",
+    "description": "Una colección de mi trabajo reciente, que muestra mis habilidades de desarrollo frontend y mi pasión por la tecnología."
+  },
+
+  "footer": {
+    "copy": "© 2025 Gonzalo Quedena. Todos los derechos reservados.",
+    "button": "Volver al Inicio"
+  }
+}
