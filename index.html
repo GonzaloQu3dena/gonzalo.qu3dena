@@ -10,11 +10,11 @@
     <header class="w-full lg:fixed top-0 left-0 right-0 z-50">
         <nav class="nav bg-secondary p-4">
             <div class="nav__container w-[90%] mx-auto h-[70px] grid grid-cols-2 justify-between items-center px-4 overflow-hidden">
-                <!--logo section-->
+                <!-- Logo Section -->
                 <span class="col-span-1">
                     <img src="assets/images/logo.png" alt="logo" class="size-12 block"/>
                 </span>
-                <!--desktop menu-->
+                <!-- Desktop Menu -->
                 <div class="hidden lg:flex lg:col-span-1">
                     <ul class="md:flex gap-8 items-center w-full lg:justify-end">
                         <li class="list-none">
@@ -40,7 +40,7 @@
                         </li>
                     </ul>
                 </div>
-                <!--mobile menu icons-->
+                <!-- Mobile Menu Icons -->
                 <div class="col-span-1 flex justify-end items-center -space-x-8 lg:hidden">
                     <a href="#menu" class="nav__menu z-10">
                         <img src="/assets/images/svg/menu.svg" class="w-8 block" alt="menu-icon"/>
@@ -49,7 +49,7 @@
                         <img src="/assets/images/svg/close.svg" class="w-8 block" alt="close-icon"/>
                     </a>
                 </div>
-                <!--mobile menu-->
+                <!-- Mobile Menu -->
                 <ul class="dropdown bg-secondary absolute right-0 top-0 bottom-0 w-[65%] max-w-[300px] p-4 flex flex-col gap-6 justify-center" id="menu">
                     <li class="list-none">
                         <a href="#about-me" class="flex text-[1.2rem] items-center py-4 no-underline text-white tracking-widest font-medium hover:underline ml-3">
@@ -79,12 +79,12 @@
     <main class="main">
         <div class="xl:w-[90%] mx-auto flex flex-col gap-10">
             <section class="hero section">
-                <!--profile photo-->
+                <!-- Profile Photo -->
                 <div class="container flex flex-col gap-12 h-full justify-center items-center lg:flex-row-reverse">
                     <div class="w-full lg:w-[40%] flex justify-center">
                         <img src="assets/images/profile.webp" alt="profile-photo-gonzalo-quedena" class="w-[200px] h-[200px] sm:w-[250px] sm:h-[250px] md:w-[300px] md:h-[300px] lg:w-[325px] lg:h-[325px] rounded-full object-cover"/>
                     </div>
-                    <!--profile info-->
+                    <!-- Profile Info -->
                     <div class="text-center flex flex-col gap-5 md:gap-6 items-center lg:items-start lg:w-[60%]">
                         <h1 class="text-white text-4xl t-h1">
                             Gonzalo Quedena
@@ -95,12 +95,12 @@
                         <a href="#projects" class="button w-[80%] lg:max-w-[200px] h-14">
                             View Works
                         </a>
-                        <!--social media icons-->
+                        <!-- Social Media Icons -->
                         <div class="flex flex-row justify-center gap-8 items-center w-[80%] lg:max-w-[200px]">
-                            <a href="https://github.com/GonzaQuedena01" target="_blank" class="icon" aria-label="GitHub">
+                            <a href="https://github.com/GonzaloQu3dena" target="_blank" class="icon" aria-label="GitHub">
                                 <img src="assets/images/svg/github.svg" alt="github-icon" class="w-full block">
                             </a>
-                            <a href="#" target="_blank" class="icon">
+                            <a href="https://www.linkedin.com/in/gonzalo-quedena-b75132345/" target="_blank" class="icon">
                                 <img src="assets/images/svg/linkedin.svg" alt="linkedin-icon" class="w-full block">
                             </a>
                         </div>
@@ -137,7 +137,7 @@
                         </h2>
                         <div class="flex flex-col items-center lg:items-start gap-5 mt-6">
                             <div class="flex flex-row gap-4 w-full items-center justify-center">
-                                <!-- Botones Responsivos -->
+                                <!-- Responsive Buttons -->
                                 <button class="button px-4 py-2 sm:px-6 lg:w-auto" id="languagesBtn">
                                     Languages
                                 </button>
@@ -211,6 +211,26 @@
         </div>
     </main>
 
+    <footer class="bg-secondary text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex gap-8 mb-4 md:mb-0">
+                    <a href="https://github.com/GonzaloQu3dena" target="_blank" class="hover:text-gray-400">
+                        <img src="assets/images/svg/github.svg" alt="GitHub" class="w-6 h-6">
+                    </a>
+                    <a href="https://www.linkedin.com/in/gonzalo-quedena-b75132345/" target="_blank" class="hover:text-gray-400">
+                        <img src="assets/images/svg/linkedin.svg" alt="LinkedIn" class="w-6 h-6">
+                    </a>
+                </div>
+                <div class="text-center md:text-right mb-4 md:mb-0">
+                    <p class="text-sm">&copy; 2023 Gonzalo Quedena. All rights reserved.</p>
+                </div>
+                <div>
+                    <a href="#top" class="bg-linear-red text-white px-4 py-2 rounded hover:bg-linear-grey transition duration-300">Back to Top</a>
+                </div>
+            </div>
+        </div>
+    </footer>
     
     <script src="js/scripts.js"></script>
     <script src="js/project-item.js"></script>
