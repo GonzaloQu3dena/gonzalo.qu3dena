@@ -138,3 +138,32 @@ section {
     background: linear-gradient(to right, transparent, #fff, transparent);
     margin: 2rem 0;
 }
+
+input {
+    @apply text-black outline-none;
+}
+
+textarea {
+    @apply placeholder-top-left text-black outline-none p-2;
+}
+
+/* input styles*/
+.placeholder-top-left::placeholder {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(10px, 10px);
+    /* placeholder color */
+    color: #A8A8A8; 
+    /* placeholder fontsize */
+    font-size: 1rem; 
+}
+
+/* Make sure the input has a relative position */
+.placeholder-top-left {
+    position: relative;
+}
+
+.text-black {
+    color: black;
+}
